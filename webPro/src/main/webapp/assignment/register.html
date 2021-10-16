@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>회원정보입력</legend>
+            <label for="id">아이디</label>
+            <input type="text" name="id" id="id" autofocus pattern="[a-zA-Z0-9]{4,8}" required>
+            <button class="checkId" type="button">중복검사</button><br>
+            <label for="pw">패스워드</label>
+            <input type="password" name="password" id="pw" pattern="[a-zA-Z0-9]{4,20}" required><br>
+            <label for="pw">패스워드 확인</label>
+            <input type="password" name="password" id="pw" pattern="[a-zA-Z0-9]{4,20}" required><br>
+            <label for="nm">이름</label>
+            <input type="text" name="name" id="nm" placeholder="홍길동" required><br>
+            <label for="tl">휴대폰번호</label>
+            <input type="tel" name="tel" id="tl" placeholder="010-1234-5678" pattern="[0-9]{2,3}-[0-9]{3,4}-[0-9]{4}"><br>
+            <label for="em">이메일</label>
+            <input type="email" name="email" id="em" placeholder="abc123@google.com" pattern="[a-zA-Z0-9]@[a-zA-Z0-9]"><br>
+            <label for="bd">생일</label>
+            <input type="date" name="birthday" id="bd"><br>
+            <label for="pa">홈페이지</label>
+            <input type="url" name="page" id="pa" placeholder="www.google.com"><br>
+            <label for="gd">성별</label>
+            <input type="radio" name="gender" id="gd" value="남자">남자
+            <input type="radio" name="gender" id="gd" value="여자">여자<br>
+            <input type="submit">
+            <input type="reset">
+        </fieldset>
+    </form>
+</body>
+</html>
