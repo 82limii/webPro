@@ -1,20 +1,20 @@
 .box {
   border: 1px solid gray;
   float: left;
-  width: 200px;
+  width: 30%;
   height: 480px;
-  margin: 5px;
-  padding: 30px;
+  margin-top: 5px;
+  /* padding: 30px; */
   background-color: #fafafa;
 }
 .pic {
   text-align: center;
 }
 img {
-  width: 200px;
+  width: 100%;
 }
 audio {
-  width: 220px;
+  width: 100%;
 }
 video {
   width: 700px;

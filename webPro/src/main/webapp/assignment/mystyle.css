@@ -32,3 +32,26 @@ nav a {
   font-size: 18px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+#left {
+  background-color: beige;
+  float: left;
+  width: 20%;
+  margin-top: 10px;
+}
+#left ul {
+  list-style: none;
+}
+#main {
+  float: left;
+  width: 60%;
+  margin-top: 10px;
+}
+#main iframe {
+  width: 95%;
+  height: 100%;
+}
+#right {
+  float: left;
+  width: 20%;
+  margin-top: 10px;
+}
