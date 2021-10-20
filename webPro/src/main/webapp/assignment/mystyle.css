@@ -107,6 +107,10 @@ nav a {
 #right h3 {
   color: white;
 }
+#id,
+#pw {
+  width: 70%;
+}
 footer {
   position: fixed;
   bottom: 0px;
